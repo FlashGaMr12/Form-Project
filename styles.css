@@ -33,10 +33,7 @@ input{
 
 
 a{
-color: hsl(0, 100%, 74%);
-text-decoration: none;
-font-family: 'Poppins', sans-serif;
-font-weight: 700;
+
 
 }
 
@@ -44,6 +41,13 @@ font-weight: 700;
 
 
 /****************************Class selectors**********************************/
+
+.terms{
+  color: hsl(0, 100%, 74%);
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
 
 .firstspan{
   position: fixed;
@@ -200,6 +204,26 @@ font-size: 16px;
   width: 78%;
   height: 50px;
 
+}
+
+.attribution{
+position: absolute;
+left: 700px;
+bottom:50px;
+color: snow;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+}
+
+.footer{
+color: hsl(249, 10%, 26%);
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
 
 
+}
+
+.footer:hover{
+  color: #ff1e56;
 }
